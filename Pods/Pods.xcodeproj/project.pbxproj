@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2595934DA48DFBF7BC8B4A4E3B1BBDA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
+		31FEE07B2C3B335D9F797383A35CDBA0 /* SwiftySound-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C637B5DCCC7BA46C9811133255DFCC43 /* SwiftySound-dummy.m */; };
+		690B2E935CD70E30AC35A8C267589237 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */; };
+		7F8515E3A4E1890D244636A271862E1C /* SwiftySound-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EC492B508CAB7FB3F9DC409E1BD932 /* SwiftySound-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C8D522827E4D58520A16F7640BA0D0 /* Pods-SteppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BE970396BC264D36E239BCF536F19A /* Pods-SteppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA610AC2A14DA991D3CE7F326A42D1BF /* Pods-SteppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA161FF93FE3EF6C19DA13C90D8F1EF2 /* Pods-SteppTests-dummy.m */; };
+		B825E10F075CCA17C27A9D451C0BA120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
+		BDD7BEBA7F58FBE4F361DC3A8186B755 /* Pods-SteppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD8EA532935657DB18DCEA6B36B338C /* Pods-SteppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE27B0BE43A1AB186CC782F76AB71066 /* Pods-SteppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4995A7EE1DD5A3B2AF81398DC58C4D /* Pods-SteppUITests-dummy.m */; };
+		C4F5306788813E54791E1C54F0FB409C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
+		E843A98C65C78F3494709E9C7ED4FF7A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FB45F6AF751F7BE5F2A747A25041BD /* Sound.swift */; };
+		F81DE3278B10ADB4650273CD82F09FA7 /* Pods-Stepp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B13E9337F32D378405530455CF10E30 /* Pods-Stepp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB5F08A689EA00B14A4A7DE02598292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
+		FE416A8EBC66D2D99AE8912FE828502F /* Pods-Stepp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D3C68493FACA8E6E962A94B158780F /* Pods-Stepp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E78287BF87090DAE5C0E6D36DFC2838A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A033399D4DF7623CB3CB84802FCECD9D;
+			remoteInfo = SwiftySound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14EA50D6A26DB9AF0873508A05F28F69 /* Pods_Stepp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Stepp.framework; path = "Pods-Stepp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F074123730BA94C1A2B03837ECCAB7 /* Pods-SteppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SteppTests.modulemap"; sourceTree = "<group>"; };
+		2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BD8EA532935657DB18DCEA6B36B338C /* Pods-SteppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SteppUITests-umbrella.h"; sourceTree = "<group>"; };
+		3044548D68D82A3761D3A7143473F69D /* Pods-SteppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteppTests.release.xcconfig"; sourceTree = "<group>"; };
+		31447E5A2011803AE36DDBB2E9531D87 /* Pods-SteppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		343527B8A31CAA8B280E781D66F47E5C /* Pods-Stepp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stepp-frameworks.sh"; sourceTree = "<group>"; };
+		38CCE84BF0E46D3100470D84B8535182 /* Pods-SteppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SteppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		429A86C52F5123A6D3D78B3133DCD707 /* Pods-SteppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteppUITests-resources.sh"; sourceTree = "<group>"; };
+		4A5272C4F62ECE5E2A5A48F27E83FE08 /* Pods-SteppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4BE01DF418E5079929E1A1CF91DDDB20 /* Pods_SteppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SteppTests.framework; path = "Pods-SteppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEC36EA50F84ECEAC7CFE61010E5BDC /* Pods-SteppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52713D7BDCA9DA1EF6FE98714D3E0704 /* Pods-Stepp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stepp.debug.xcconfig"; sourceTree = "<group>"; };
+		5B13E9337F32D378405530455CF10E30 /* Pods-Stepp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stepp-umbrella.h"; sourceTree = "<group>"; };
+		5F841CB5BBFADF1EC0BD0A9D054A6281 /* Pods-SteppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteppTests-frameworks.sh"; sourceTree = "<group>"; };
+		600D12959D6DE9D242E99F5A1D32340F /* Pods-Stepp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stepp.release.xcconfig"; sourceTree = "<group>"; };
+		63B6BDF5CD839523069156DA06154F7E /* SwiftySound.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftySound.modulemap; sourceTree = "<group>"; };
+		677836298824CD274A156648798AD432 /* Pods-Stepp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stepp-resources.sh"; sourceTree = "<group>"; };
+		6908787D7C0F44FBDBBBC8747EAB2B9E /* Pods-SteppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FD5AF3D70D27166E806303C2D20B38B /* Pods-SteppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SteppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7550916C19B97F4749AF55D2B86A7B51 /* Pods_SteppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SteppUITests.framework; path = "Pods-SteppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1D6243AE855D020918111C538811AB /* SwiftySound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftySound.framework; path = SwiftySound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		8A4CACBD5793E07C7C8671A591311767 /* Pods-SteppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteppTests-resources.sh"; sourceTree = "<group>"; };
+		8C7ED57A2E2F992F16975AAE1ECF702E /* SwiftySound-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySound-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99E57E9A10546660E7B7DA42A8D4B07C /* Pods-SteppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SteppUITests.modulemap"; sourceTree = "<group>"; };
+		9C1EA0B5ACA7F21B7CEED3BEBA24D35D /* Pods-Stepp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stepp-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2017C294DDC1B8877AB8DF6BF68AFF5 /* SwiftySound.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftySound.xcconfig; sourceTree = "<group>"; };
+		A327FC6B2CBA50F737E9FD19E7F96B07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D3C68493FACA8E6E962A94B158780F /* Pods-Stepp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stepp-dummy.m"; sourceTree = "<group>"; };
+		A7DD54EBDE5BDBAB9FC8A799A684986C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B21D95ED0B0F89C4F150253355181A19 /* Pods-Stepp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stepp.modulemap"; sourceTree = "<group>"; };
+		BA161FF93FE3EF6C19DA13C90D8F1EF2 /* Pods-SteppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SteppTests-dummy.m"; sourceTree = "<group>"; };
+		BA843AEA7E2B021F11D1BD74076BC7E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C023AB1D8039DF286B742A32154DC1EA /* Pods-SteppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C637B5DCCC7BA46C9811133255DFCC43 /* SwiftySound-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySound-dummy.m"; sourceTree = "<group>"; };
+		C6FB45F6AF751F7BE5F2A747A25041BD /* Sound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sound.swift; path = Sources/Sound.swift; sourceTree = "<group>"; };
+		C7E671A486568A01A7197B673DBF0AFC /* Pods-SteppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC8C9ED85048873A5B62726E71CCA997 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7EC492B508CAB7FB3F9DC409E1BD932 /* SwiftySound-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySound-umbrella.h"; sourceTree = "<group>"; };
+		E1D01D0E48B90E1FD56C278661F33C7E /* Pods-Stepp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stepp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED4995A7EE1DD5A3B2AF81398DC58C4D /* Pods-SteppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SteppUITests-dummy.m"; sourceTree = "<group>"; };
+		F7BE970396BC264D36E239BCF536F19A /* Pods-SteppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SteppTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2205E5B927CD8A71B691638F290E54D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2595934DA48DFBF7BC8B4A4E3B1BBDA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470D248E9BBDB5D55F59371F2D9C77F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB5F08A689EA00B14A4A7DE02598292 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7170CA9D800FAC71B8E3ADE5B986B73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690B2E935CD70E30AC35A8C267589237 /* AVFoundation.framework in Frameworks */,
+				B825E10F075CCA17C27A9D451C0BA120 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F401F655FB997277C66AF91C7CAA9224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F5306788813E54791E1C54F0FB409C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067C57C3CDB57E3527393E95523F945A /* Pods-SteppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC8C9ED85048873A5B62726E71CCA997 /* Info.plist */,
+				99E57E9A10546660E7B7DA42A8D4B07C /* Pods-SteppUITests.modulemap */,
+				38CCE84BF0E46D3100470D84B8535182 /* Pods-SteppUITests-acknowledgements.markdown */,
+				C023AB1D8039DF286B742A32154DC1EA /* Pods-SteppUITests-acknowledgements.plist */,
+				ED4995A7EE1DD5A3B2AF81398DC58C4D /* Pods-SteppUITests-dummy.m */,
+				4A5272C4F62ECE5E2A5A48F27E83FE08 /* Pods-SteppUITests-frameworks.sh */,
+				429A86C52F5123A6D3D78B3133DCD707 /* Pods-SteppUITests-resources.sh */,
+				2BD8EA532935657DB18DCEA6B36B338C /* Pods-SteppUITests-umbrella.h */,
+				4BEC36EA50F84ECEAC7CFE61010E5BDC /* Pods-SteppUITests.debug.xcconfig */,
+				31447E5A2011803AE36DDBB2E9531D87 /* Pods-SteppUITests.release.xcconfig */,
+			);
+			name = "Pods-SteppUITests";
+			path = "Target Support Files/Pods-SteppUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C43F4BAD2992BD9EE60E0C1AC390B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62E233B123AA462EC4BACAE33BC3A1FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD54EBDE5BDBAB9FC8A799A684986C /* Info.plist */,
+				63B6BDF5CD839523069156DA06154F7E /* SwiftySound.modulemap */,
+				A2017C294DDC1B8877AB8DF6BF68AFF5 /* SwiftySound.xcconfig */,
+				C637B5DCCC7BA46C9811133255DFCC43 /* SwiftySound-dummy.m */,
+				8C7ED57A2E2F992F16975AAE1ECF702E /* SwiftySound-prefix.pch */,
+				D7EC492B508CAB7FB3F9DC409E1BD932 /* SwiftySound-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftySound";
+			sourceTree = "<group>";
+		};
+		6D0057A1A0172F693AB073A870C38A99 /* SwiftySound */ = {
+			isa = PBXGroup;
+			children = (
+				C6FB45F6AF751F7BE5F2A747A25041BD /* Sound.swift */,
+				62E233B123AA462EC4BACAE33BC3A1FF /* Support Files */,
+			);
+			name = SwiftySound;
+			path = SwiftySound;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9804E6EA3E05744B7B8ED985D1E67D26 /* Pods */,
+				C09522C9FC994E638606F20CFEA431C6 /* Products */,
+				EE67189AC4209463236C220D273B97AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87C1DFBA565373ABAA4DFA625AB7A851 /* Pods-Stepp */ = {
+			isa = PBXGroup;
+			children = (
+				A327FC6B2CBA50F737E9FD19E7F96B07 /* Info.plist */,
+				B21D95ED0B0F89C4F150253355181A19 /* Pods-Stepp.modulemap */,
+				E1D01D0E48B90E1FD56C278661F33C7E /* Pods-Stepp-acknowledgements.markdown */,
+				9C1EA0B5ACA7F21B7CEED3BEBA24D35D /* Pods-Stepp-acknowledgements.plist */,
+				A5D3C68493FACA8E6E962A94B158780F /* Pods-Stepp-dummy.m */,
+				343527B8A31CAA8B280E781D66F47E5C /* Pods-Stepp-frameworks.sh */,
+				677836298824CD274A156648798AD432 /* Pods-Stepp-resources.sh */,
+				5B13E9337F32D378405530455CF10E30 /* Pods-Stepp-umbrella.h */,
+				52713D7BDCA9DA1EF6FE98714D3E0704 /* Pods-Stepp.debug.xcconfig */,
+				600D12959D6DE9D242E99F5A1D32340F /* Pods-Stepp.release.xcconfig */,
+			);
+			name = "Pods-Stepp";
+			path = "Target Support Files/Pods-Stepp";
+			sourceTree = "<group>";
+		};
+		9804E6EA3E05744B7B8ED985D1E67D26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D0057A1A0172F693AB073A870C38A99 /* SwiftySound */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB9C43F4BAD2992BD9EE60E0C1AC390B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */,
+				2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C09522C9FC994E638606F20CFEA431C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14EA50D6A26DB9AF0873508A05F28F69 /* Pods_Stepp.framework */,
+				4BE01DF418E5079929E1A1CF91DDDB20 /* Pods_SteppTests.framework */,
+				7550916C19B97F4749AF55D2B86A7B51 /* Pods_SteppUITests.framework */,
+				7F1D6243AE855D020918111C538811AB /* SwiftySound.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB628BC646E1C503446CB184BCBAFBF /* Pods-SteppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA843AEA7E2B021F11D1BD74076BC7E8 /* Info.plist */,
+				20F074123730BA94C1A2B03837ECCAB7 /* Pods-SteppTests.modulemap */,
+				6FD5AF3D70D27166E806303C2D20B38B /* Pods-SteppTests-acknowledgements.markdown */,
+				6908787D7C0F44FBDBBBC8747EAB2B9E /* Pods-SteppTests-acknowledgements.plist */,
+				BA161FF93FE3EF6C19DA13C90D8F1EF2 /* Pods-SteppTests-dummy.m */,
+				5F841CB5BBFADF1EC0BD0A9D054A6281 /* Pods-SteppTests-frameworks.sh */,
+				8A4CACBD5793E07C7C8671A591311767 /* Pods-SteppTests-resources.sh */,
+				F7BE970396BC264D36E239BCF536F19A /* Pods-SteppTests-umbrella.h */,
+				C7E671A486568A01A7197B673DBF0AFC /* Pods-SteppTests.debug.xcconfig */,
+				3044548D68D82A3761D3A7143473F69D /* Pods-SteppTests.release.xcconfig */,
+			);
+			name = "Pods-SteppTests";
+			path = "Target Support Files/Pods-SteppTests";
+			sourceTree = "<group>";
+		};
+		EE67189AC4209463236C220D273B97AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C1DFBA565373ABAA4DFA625AB7A851 /* Pods-Stepp */,
+				CAB628BC646E1C503446CB184BCBAFBF /* Pods-SteppTests */,
+				067C57C3CDB57E3527393E95523F945A /* Pods-SteppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C06CF4B7B54172D3229F06E1D524B34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C8D522827E4D58520A16F7640BA0D0 /* Pods-SteppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6221F9D31A633776CF2DA178C8CE95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81DE3278B10ADB4650273CD82F09FA7 /* Pods-Stepp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8D6A743EFA93B2B3B8333C4CE36FC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD7BEBA7F58FBE4F361DC3A8186B755 /* Pods-SteppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47B5C5F9B84305DBADFDFAA8D9F543D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8515E3A4E1890D244636A271862E1C /* SwiftySound-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08F619C80D4EFA95C37EAC8020D37130 /* Pods-SteppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2D79D4C88C99C07AB50F075CDFFFF5 /* Build configuration list for PBXNativeTarget "Pods-SteppUITests" */;
+			buildPhases = (
+				581F8746E84EA94A857E46712042DE39 /* Sources */,
+				F401F655FB997277C66AF91C7CAA9224 /* Frameworks */,
+				AA8D6A743EFA93B2B3B8333C4CE36FC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SteppUITests";
+			productName = "Pods-SteppUITests";
+			productReference = 7550916C19B97F4749AF55D2B86A7B51 /* Pods_SteppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5363AC8DC48364B8B7C8556BE9C580D3 /* Pods-Stepp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1549DF0B3D7F077A3DB5D8C1422AE2BB /* Build configuration list for PBXNativeTarget "Pods-Stepp" */;
+			buildPhases = (
+				DB46C102D4B064CC1CCC3ADA5A483946 /* Sources */,
+				470D248E9BBDB5D55F59371F2D9C77F9 /* Frameworks */,
+				9A6221F9D31A633776CF2DA178C8CE95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4024D4DD3CA6F0017B7DE3DD5845869C /* PBXTargetDependency */,
+			);
+			name = "Pods-Stepp";
+			productName = "Pods-Stepp";
+			productReference = 14EA50D6A26DB9AF0873508A05F28F69 /* Pods_Stepp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A033399D4DF7623CB3CB84802FCECD9D /* SwiftySound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66DD91B45CE72F3752DF380816DC940 /* Build configuration list for PBXNativeTarget "SwiftySound" */;
+			buildPhases = (
+				753D11CB5B9D47F1509077B18E46A607 /* Sources */,
+				7170CA9D800FAC71B8E3ADE5B986B73E /* Frameworks */,
+				C47B5C5F9B84305DBADFDFAA8D9F543D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftySound;
+			productName = SwiftySound;
+			productReference = 7F1D6243AE855D020918111C538811AB /* SwiftySound.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5AC53C30084E4FF27E0B1AF2FB03216 /* Pods-SteppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3B16BC7261C873484A7C8EDD2D19FB /* Build configuration list for PBXNativeTarget "Pods-SteppTests" */;
+			buildPhases = (
+				1FF6818F9CEDE380C5C503C6E3E68E6E /* Sources */,
+				2205E5B927CD8A71B691638F290E54D3 /* Frameworks */,
+				1C06CF4B7B54172D3229F06E1D524B34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SteppTests";
+			productName = "Pods-SteppTests";
+			productReference = 4BE01DF418E5079929E1A1CF91DDDB20 /* Pods_SteppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C09522C9FC994E638606F20CFEA431C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5363AC8DC48364B8B7C8556BE9C580D3 /* Pods-Stepp */,
+				C5AC53C30084E4FF27E0B1AF2FB03216 /* Pods-SteppTests */,
+				08F619C80D4EFA95C37EAC8020D37130 /* Pods-SteppUITests */,
+				A033399D4DF7623CB3CB84802FCECD9D /* SwiftySound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF6818F9CEDE380C5C503C6E3E68E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA610AC2A14DA991D3CE7F326A42D1BF /* Pods-SteppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581F8746E84EA94A857E46712042DE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE27B0BE43A1AB186CC782F76AB71066 /* Pods-SteppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753D11CB5B9D47F1509077B18E46A607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E843A98C65C78F3494709E9C7ED4FF7A /* Sound.swift in Sources */,
+				31FEE07B2C3B335D9F797383A35CDBA0 /* SwiftySound-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB46C102D4B064CC1CCC3ADA5A483946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE416A8EBC66D2D99AE8912FE828502F /* Pods-Stepp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4024D4DD3CA6F0017B7DE3DD5845869C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftySound;
+			target = A033399D4DF7623CB3CB84802FCECD9D /* SwiftySound */;
+			targetProxy = E78287BF87090DAE5C0E6D36DFC2838A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00848B67B74BEB7E73B2FAF17D5BDB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3044548D68D82A3761D3A7143473F69D /* Pods-SteppTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteppTests/Pods-SteppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SteppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		297FF739F5E93E3E9E77D383E863B553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BEC36EA50F84ECEAC7CFE61010E5BDC /* Pods-SteppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteppUITests/Pods-SteppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SteppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91E4DAD9132AA44EB7DCF69EC203736B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2017C294DDC1B8877AB8DF6BF68AFF5 /* SwiftySound.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySound/SwiftySound-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySound/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftySound/SwiftySound.modulemap";
+				PRODUCT_NAME = SwiftySound;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96E6DB7006D998C665E5BFCA0F9E3DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31447E5A2011803AE36DDBB2E9531D87 /* Pods-SteppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteppUITests/Pods-SteppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SteppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A65C2305A6BD6872659661E71EC643D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2017C294DDC1B8877AB8DF6BF68AFF5 /* SwiftySound.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySound/SwiftySound-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySound/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftySound/SwiftySound.modulemap";
+				PRODUCT_NAME = SwiftySound;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A79C27569703D9868F5A40B8D5F7281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E671A486568A01A7197B673DBF0AFC /* Pods-SteppTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteppTests/Pods-SteppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SteppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C117119D9D9CCF295767EF1FC39EC4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52713D7BDCA9DA1EF6FE98714D3E0704 /* Pods-Stepp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stepp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stepp/Pods-Stepp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Stepp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F94773F37A073CC37A1EFB3726D5A766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600D12959D6DE9D242E99F5A1D32340F /* Pods-Stepp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stepp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stepp/Pods-Stepp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Stepp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1549DF0B3D7F077A3DB5D8C1422AE2BB /* Build configuration list for PBXNativeTarget "Pods-Stepp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C117119D9D9CCF295767EF1FC39EC4B6 /* Debug */,
+				F94773F37A073CC37A1EFB3726D5A766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D3B16BC7261C873484A7C8EDD2D19FB /* Build configuration list for PBXNativeTarget "Pods-SteppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79C27569703D9868F5A40B8D5F7281F /* Debug */,
+				00848B67B74BEB7E73B2FAF17D5BDB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66DD91B45CE72F3752DF380816DC940 /* Build configuration list for PBXNativeTarget "SwiftySound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65C2305A6BD6872659661E71EC643D9 /* Debug */,
+				91E4DAD9132AA44EB7DCF69EC203736B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2D79D4C88C99C07AB50F075CDFFFF5 /* Build configuration list for PBXNativeTarget "Pods-SteppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297FF739F5E93E3E9E77D383E863B553 /* Debug */,
+				96E6DB7006D998C665E5BFCA0F9E3DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

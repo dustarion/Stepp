@@ -1,0 +1,6 @@
+framework module Pods_Stepp {
+  umbrella header "Pods-Stepp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDB0EE999AE80063D0764BC /* Pods_SteppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F8A2726506682F845A418D /* Pods_SteppTests.framework */; };
+		501688B9887DFDD78250FBEE /* Pods_Stepp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5F333FD9A9400A867548E0 /* Pods_Stepp.framework */; };
+		5C12860E204141680035DF22 /* LFTPulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12860D204141680035DF22 /* LFTPulseAnimation.swift */; };
+		5CB4AD57204153EE00D6394A /* alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4AD56204153EE00D6394A /* alert.swift */; };
+		5CB4AD5B2041A0B300D6394A /* igloohome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4AD5A2041A0B300D6394A /* igloohome.swift */; };
+		5CB4AD662043E87C00D6394A /* setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4AD652043E87C00D6394A /* setup.swift */; };
+		5CBCA0122029998A00D4ED6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCA0112029998A00D4ED6F /* AppDelegate.swift */; };
+		5CBCA0142029998A00D4ED6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCA0132029998A00D4ED6F /* ViewController.swift */; };
+		5CBCA0172029998A00D4ED6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CBCA0152029998A00D4ED6F /* Main.storyboard */; };
+		5CBCA0192029998A00D4ED6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBCA0182029998A00D4ED6F /* Assets.xcassets */; };
+		5CBCA01C2029998A00D4ED6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CBCA01A2029998A00D4ED6F /* LaunchScreen.storyboard */; };
+		5CBCA0272029998A00D4ED6F /* SteppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCA0262029998A00D4ED6F /* SteppTests.swift */; };
+		5CBCA0322029998A00D4ED6F /* SteppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCA0312029998A00D4ED6F /* SteppUITests.swift */; };
+		5CCEBD60203FE67E009B5261 /* stringChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEBD5F203FE67E009B5261 /* stringChar.swift */; };
+		5CCEBD622040049A009B5261 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEBD612040049A009B5261 /* EmergencyViewController.swift */; };
+		5CCEBD64204011E4009B5261 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5CCEBD63204011E4009B5261 /* alarm.wav */; };
+		5CCEBD6820401ECB009B5261 /* twilio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEBD6720401ECB009B5261 /* twilio.swift */; };
+		5CCEBD6A20401F87009B5261 /* eventHappening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEBD6920401F87009B5261 /* eventHappening.swift */; };
+		E31B98F7A9237731AF17F926 /* Pods_SteppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AE52CD4D494D0D92BCC398 /* Pods_SteppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CBCA0232029998A00D4ED6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CBCA0062029998A00D4ED6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CBCA00D2029998A00D4ED6F;
+			remoteInfo = Stepp;
+		};
+		5CBCA02E2029998A00D4ED6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CBCA0062029998A00D4ED6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CBCA00D2029998A00D4ED6F;
+			remoteInfo = Stepp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AE52CD4D494D0D92BCC398 /* Pods_SteppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5F333FD9A9400A867548E0 /* Pods_Stepp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stepp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAEBFC07647746725D7F370 /* Pods-Stepp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stepp/Pods-Stepp.release.xcconfig"; sourceTree = "<group>"; };
+		4AD99A0E21BA87DBF97EC642 /* Pods-Stepp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stepp/Pods-Stepp.debug.xcconfig"; sourceTree = "<group>"; };
+		5C12860D204141680035DF22 /* LFTPulseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFTPulseAnimation.swift; sourceTree = "<group>"; };
+		5CB4AD56204153EE00D6394A /* alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert.swift; sourceTree = "<group>"; };
+		5CB4AD5A2041A0B300D6394A /* igloohome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = igloohome.swift; sourceTree = "<group>"; };
+		5CB4AD652043E87C00D6394A /* setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setup.swift; sourceTree = "<group>"; };
+		5CBCA00E2029998A00D4ED6F /* Stepp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stepp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBCA0112029998A00D4ED6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CBCA0132029998A00D4ED6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CBCA0162029998A00D4ED6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CBCA0182029998A00D4ED6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CBCA01B2029998A00D4ED6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CBCA01D2029998A00D4ED6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBCA0222029998A00D4ED6F /* SteppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBCA0262029998A00D4ED6F /* SteppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteppTests.swift; sourceTree = "<group>"; };
+		5CBCA0282029998A00D4ED6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBCA02D2029998A00D4ED6F /* SteppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBCA0312029998A00D4ED6F /* SteppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteppUITests.swift; sourceTree = "<group>"; };
+		5CBCA0332029998A00D4ED6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCEBD5F203FE67E009B5261 /* stringChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringChar.swift; sourceTree = "<group>"; };
+		5CCEBD612040049A009B5261 /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		5CCEBD63204011E4009B5261 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
+		5CCEBD6720401ECB009B5261 /* twilio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twilio.swift; sourceTree = "<group>"; };
+		5CCEBD6920401F87009B5261 /* eventHappening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventHappening.swift; sourceTree = "<group>"; };
+		8381556CCD0B7B906FDDEA93 /* Pods-SteppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SteppUITests/Pods-SteppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91FFCB29E3B1453C02168F5E /* Pods-SteppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SteppTests/Pods-SteppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA0D940D06893ABEBE3B26D9 /* Pods-SteppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SteppUITests/Pods-SteppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F8A2726506682F845A418D /* Pods_SteppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6715ABD5FAC9E71880052AC /* Pods-SteppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SteppTests/Pods-SteppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CBCA00B2029998A00D4ED6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501688B9887DFDD78250FBEE /* Pods_Stepp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBCA01F2029998A00D4ED6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDB0EE999AE80063D0764BC /* Pods_SteppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBCA02A2029998A00D4ED6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31B98F7A9237731AF17F926 /* Pods_SteppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B93E477953A5864787B0EE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D5F333FD9A9400A867548E0 /* Pods_Stepp.framework */,
+				D7F8A2726506682F845A418D /* Pods_SteppTests.framework */,
+				07AE52CD4D494D0D92BCC398 /* Pods_SteppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CBCA0052029998A00D4ED6F = {
+			isa = PBXGroup;
+			children = (
+				5CBCA0102029998A00D4ED6F /* Stepp */,
+				5CBCA0252029998A00D4ED6F /* SteppTests */,
+				5CBCA0302029998A00D4ED6F /* SteppUITests */,
+				5CBCA00F2029998A00D4ED6F /* Products */,
+				8EC3784CC8D01A7FFD301EB4 /* Pods */,
+				5B93E477953A5864787B0EE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CBCA00F2029998A00D4ED6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CBCA00E2029998A00D4ED6F /* Stepp.app */,
+				5CBCA0222029998A00D4ED6F /* SteppTests.xctest */,
+				5CBCA02D2029998A00D4ED6F /* SteppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CBCA0102029998A00D4ED6F /* Stepp */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEBD63204011E4009B5261 /* alarm.wav */,
+				5CCEBD6920401F87009B5261 /* eventHappening.swift */,
+				5C12860D204141680035DF22 /* LFTPulseAnimation.swift */,
+				5CB4AD652043E87C00D6394A /* setup.swift */,
+				5CB4AD56204153EE00D6394A /* alert.swift */,
+				5CCEBD6720401ECB009B5261 /* twilio.swift */,
+				5CB4AD5A2041A0B300D6394A /* igloohome.swift */,
+				5CBCA0112029998A00D4ED6F /* AppDelegate.swift */,
+				5CCEBD5F203FE67E009B5261 /* stringChar.swift */,
+				5CBCA0132029998A00D4ED6F /* ViewController.swift */,
+				5CCEBD612040049A009B5261 /* EmergencyViewController.swift */,
+				5CBCA0152029998A00D4ED6F /* Main.storyboard */,
+				5CBCA0182029998A00D4ED6F /* Assets.xcassets */,
+				5CBCA01A2029998A00D4ED6F /* LaunchScreen.storyboard */,
+				5CBCA01D2029998A00D4ED6F /* Info.plist */,
+			);
+			path = Stepp;
+			sourceTree = "<group>";
+		};
+		5CBCA0252029998A00D4ED6F /* SteppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CBCA0262029998A00D4ED6F /* SteppTests.swift */,
+				5CBCA0282029998A00D4ED6F /* Info.plist */,
+			);
+			path = SteppTests;
+			sourceTree = "<group>";
+		};
+		5CBCA0302029998A00D4ED6F /* SteppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CBCA0312029998A00D4ED6F /* SteppUITests.swift */,
+				5CBCA0332029998A00D4ED6F /* Info.plist */,
+			);
+			path = SteppUITests;
+			sourceTree = "<group>";
+		};
+		8EC3784CC8D01A7FFD301EB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AD99A0E21BA87DBF97EC642 /* Pods-Stepp.debug.xcconfig */,
+				3EAEBFC07647746725D7F370 /* Pods-Stepp.release.xcconfig */,
+				E6715ABD5FAC9E71880052AC /* Pods-SteppTests.debug.xcconfig */,
+				91FFCB29E3B1453C02168F5E /* Pods-SteppTests.release.xcconfig */,
+				BA0D940D06893ABEBE3B26D9 /* Pods-SteppUITests.debug.xcconfig */,
+				8381556CCD0B7B906FDDEA93 /* Pods-SteppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CBCA00D2029998A00D4ED6F /* Stepp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBCA0362029998A00D4ED6F /* Build configuration list for PBXNativeTarget "Stepp" */;
+			buildPhases = (
+				F5817411792EBC20AB557408 /* [CP] Check Pods Manifest.lock */,
+				5CBCA00A2029998A00D4ED6F /* Sources */,
+				5CBCA00B2029998A00D4ED6F /* Frameworks */,
+				5CBCA00C2029998A00D4ED6F /* Resources */,
+				50E0F29C9159D114246B1106 /* [CP] Embed Pods Frameworks */,
+				ADDBF1F876617E80B9DD7A2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stepp;
+			productName = Stepp;
+			productReference = 5CBCA00E2029998A00D4ED6F /* Stepp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CBCA0212029998A00D4ED6F /* SteppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBCA0392029998A00D4ED6F /* Build configuration list for PBXNativeTarget "SteppTests" */;
+			buildPhases = (
+				DE6003366CADF800486BA4CF /* [CP] Check Pods Manifest.lock */,
+				5CBCA01E2029998A00D4ED6F /* Sources */,
+				5CBCA01F2029998A00D4ED6F /* Frameworks */,
+				5CBCA0202029998A00D4ED6F /* Resources */,
+				320C0C8883184C4DB8AF8205 /* [CP] Embed Pods Frameworks */,
+				C48B4C45C33B5FF63374B278 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CBCA0242029998A00D4ED6F /* PBXTargetDependency */,
+			);
+			name = SteppTests;
+			productName = SteppTests;
+			productReference = 5CBCA0222029998A00D4ED6F /* SteppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CBCA02C2029998A00D4ED6F /* SteppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBCA03C2029998A00D4ED6F /* Build configuration list for PBXNativeTarget "SteppUITests" */;
+			buildPhases = (
+				0CA2739C1B7F9F6BB4D4BB40 /* [CP] Check Pods Manifest.lock */,
+				5CBCA0292029998A00D4ED6F /* Sources */,
+				5CBCA02A2029998A00D4ED6F /* Frameworks */,
+				5CBCA02B2029998A00D4ED6F /* Resources */,
+				F942AC8AC08D2DE42DA4CA38 /* [CP] Embed Pods Frameworks */,
+				9FFDBB0282388CE2AC240C7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CBCA02F2029998A00D4ED6F /* PBXTargetDependency */,
+			);
+			name = SteppUITests;
+			productName = SteppUITests;
+			productReference = 5CBCA02D2029998A00D4ED6F /* SteppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CBCA0062029998A00D4ED6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AppsLab;
+				TargetAttributes = {
+					5CBCA00D2029998A00D4ED6F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5CBCA0212029998A00D4ED6F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CBCA00D2029998A00D4ED6F;
+					};
+					5CBCA02C2029998A00D4ED6F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CBCA00D2029998A00D4ED6F;
+					};
+				};
+			};
+			buildConfigurationList = 5CBCA0092029998A00D4ED6F /* Build configuration list for PBXProject "Stepp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CBCA0052029998A00D4ED6F;
+			productRefGroup = 5CBCA00F2029998A00D4ED6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CBCA00D2029998A00D4ED6F /* Stepp */,
+				5CBCA0212029998A00D4ED6F /* SteppTests */,
+				5CBCA02C2029998A00D4ED6F /* SteppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CBCA00C2029998A00D4ED6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBCA01C2029998A00D4ED6F /* LaunchScreen.storyboard in Resources */,
+				5CBCA0192029998A00D4ED6F /* Assets.xcassets in Resources */,
+				5CCEBD64204011E4009B5261 /* alarm.wav in Resources */,
+				5CBCA0172029998A00D4ED6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBCA0202029998A00D4ED6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBCA02B2029998A00D4ED6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA2739C1B7F9F6BB4D4BB40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		320C0C8883184C4DB8AF8205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteppTests/Pods-SteppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50E0F29C9159D114246B1106 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stepp/Pods-Stepp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stepp/Pods-Stepp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFDBB0282388CE2AC240C7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteppUITests/Pods-SteppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADDBF1F876617E80B9DD7A2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stepp/Pods-Stepp-resources.sh",
+				"${PODS_ROOT}/TwilioSDK/Resources/disconnect.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_0.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_1.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_2.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_3.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_4.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_5.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_6.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_7.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_8.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_9.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_hash.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/dtmf_star.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/incoming.wav",
+				"${PODS_ROOT}/TwilioSDK/Resources/outgoing.wav",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/disconnect.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_0.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_1.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_2.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_3.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_4.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_5.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_6.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_7.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_8.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_9.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_hash.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dtmf_star.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/incoming.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/outgoing.wav",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stepp/Pods-Stepp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48B4C45C33B5FF63374B278 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteppTests/Pods-SteppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6003366CADF800486BA4CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5817411792EBC20AB557408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stepp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F942AC8AC08D2DE42DA4CA38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteppUITests/Pods-SteppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CBCA00A2029998A00D4ED6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBCA0142029998A00D4ED6F /* ViewController.swift in Sources */,
+				5CB4AD5B2041A0B300D6394A /* igloohome.swift in Sources */,
+				5C12860E204141680035DF22 /* LFTPulseAnimation.swift in Sources */,
+				5CB4AD662043E87C00D6394A /* setup.swift in Sources */,
+				5CBCA0122029998A00D4ED6F /* AppDelegate.swift in Sources */,
+				5CCEBD622040049A009B5261 /* EmergencyViewController.swift in Sources */,
+				5CCEBD6820401ECB009B5261 /* twilio.swift in Sources */,
+				5CCEBD60203FE67E009B5261 /* stringChar.swift in Sources */,
+				5CB4AD57204153EE00D6394A /* alert.swift in Sources */,
+				5CCEBD6A20401F87009B5261 /* eventHappening.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBCA01E2029998A00D4ED6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBCA0272029998A00D4ED6F /* SteppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBCA0292029998A00D4ED6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBCA0322029998A00D4ED6F /* SteppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CBCA0242029998A00D4ED6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CBCA00D2029998A00D4ED6F /* Stepp */;
+			targetProxy = 5CBCA0232029998A00D4ED6F /* PBXContainerItemProxy */;
+		};
+		5CBCA02F2029998A00D4ED6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CBCA00D2029998A00D4ED6F /* Stepp */;
+			targetProxy = 5CBCA02E2029998A00D4ED6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CBCA0152029998A00D4ED6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CBCA0162029998A00D4ED6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CBCA01A2029998A00D4ED6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CBCA01B2029998A00D4ED6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CBCA0342029998A00D4ED6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CBCA0352029998A00D4ED6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CBCA0372029998A00D4ED6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD99A0E21BA87DBF97EC642 /* Pods-Stepp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G53CM2KCR;
+				INFOPLIST_FILE = Stepp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.Stepp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5CBCA0382029998A00D4ED6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAEBFC07647746725D7F370 /* Pods-Stepp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G53CM2KCR;
+				INFOPLIST_FILE = Stepp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.Stepp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		5CBCA03A2029998A00D4ED6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6715ABD5FAC9E71880052AC /* Pods-SteppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G53CM2KCR;
+				INFOPLIST_FILE = SteppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SteppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stepp.app/Stepp";
+			};
+			name = Debug;
+		};
+		5CBCA03B2029998A00D4ED6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FFCB29E3B1453C02168F5E /* Pods-SteppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G53CM2KCR;
+				INFOPLIST_FILE = SteppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SteppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stepp.app/Stepp";
+			};
+			name = Release;
+		};
+		5CBCA03D2029998A00D4ED6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0D940D06893ABEBE3B26D9 /* Pods-SteppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G53CM2KCR;
+				INFOPLIST_FILE = SteppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SteppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stepp;
+			};
+			name = Debug;
+		};
+		5CBCA03E2029998A00D4ED6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8381556CCD0B7B906FDDEA93 /* Pods-SteppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G53CM2KCR;
+				INFOPLIST_FILE = SteppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SteppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stepp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CBCA0092029998A00D4ED6F /* Build configuration list for PBXProject "Stepp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBCA0342029998A00D4ED6F /* Debug */,
+				5CBCA0352029998A00D4ED6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBCA0362029998A00D4ED6F /* Build configuration list for PBXNativeTarget "Stepp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBCA0372029998A00D4ED6F /* Debug */,
+				5CBCA0382029998A00D4ED6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBCA0392029998A00D4ED6F /* Build configuration list for PBXNativeTarget "SteppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBCA03A2029998A00D4ED6F /* Debug */,
+				5CBCA03B2029998A00D4ED6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBCA03C2029998A00D4ED6F /* Build configuration list for PBXNativeTarget "SteppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBCA03D2029998A00D4ED6F /* Debug */,
+				5CBCA03E2029998A00D4ED6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CBCA0062029998A00D4ED6F /* Project object */;
+}
